@@ -53,18 +53,16 @@ $(window).resize(function() {
     }, 100);
   }
   //a要素をクリックしたら
-  $('a[href^="#"]').click(function() {
+    //notの中身はスクロールさせたくないaタグのidを打ち込んでね(classでも化)
+  $('a[href^="#"]:not(#slide01, #slide02)').click(function() {
     //ページ内リンク先を取得
     var href= $(this).attr("href");
-    //スクロールしたくないa要素は以下のif文にハッシュを入力してスクロール実行を阻止しよう
-    if(href != '#carouselExampleControls'){
     //リンク先が#か空だったらhtmlに
     var hash = href == "#" || href == "" ? 'html' : href;
     //スクロール実行
     scrollToAnker(hash);
     //リンク無効化
     return false;
-  }
   });
 
   // 関数：スムーススクロール
@@ -127,18 +125,16 @@ $(window).resize(function() {
     }, 100);
   }
   //a要素をクリックしたら
-  $('a[href^="#"]').click(function() {
+  //notの中身はスクロールさせたくないaタグのidを打ち込んでね(classでも化)
+  $('a[href^="#"]:not(#slide01, #slide02)').click(function() {
     //ページ内リンク先を取得
     var href= $(this).attr("href");
-    //スクロールしたくないa要素は以下のif文にハッシュを入力してスクロール実行を阻止しよう
-    if(href != '#carouselExampleControls'){
     //リンク先が#か空だったらhtmlに
     var hash = href == "#" || href == "" ? 'html' : href;
     //スクロール実行
     scrollToAnker(hash);
     //リンク無効化
     return false;
-  }
   });
 
   // 関数：スムーススクロール
