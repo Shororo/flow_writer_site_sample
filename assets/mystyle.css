@@ -378,6 +378,7 @@ nav a:hover{
 }
 .nav-mobile a{
   font-size: 1.7rem;
+  display: block;
 }
 .nav-mobile li{
       line-height: 3;
