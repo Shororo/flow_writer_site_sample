@@ -702,6 +702,9 @@ hr{
 }
 
 @media (max-width: 767px){
+  .company-logo{
+    width: 15rem;
+  }
   .midasi{
     margin-top: 7rem;
   }
