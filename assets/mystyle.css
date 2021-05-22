@@ -521,14 +521,10 @@ a.btn--orange:hover {
 }
 .company-logo{
   margin: 8rem 0rem;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-}
-.company-logo img{
-object-fit: cover;
-    width: 20%;
-    height: auto;
+  width: 20%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /*.company-logo img{
