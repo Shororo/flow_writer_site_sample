@@ -16,6 +16,8 @@ time, mark, audio, video {
   outline:0;
   vertical-align:baseline;
   background:transparent;
+  -webkit-appearance: none !important;
+  -webkit-text-size-adjust: 100% !important;
 }
 
 
@@ -337,6 +339,7 @@ header{
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 999;
 }
 header .navigation{
   float: right;
@@ -370,19 +373,19 @@ nav a:hover{
 }
 .nav-mobile{
   display: none;
-    position: fixed;
-    top: 6rem;
-    width: 100vw;
-    z-index: 997;
-    background: white;
+  position: fixed;
+  top: 6rem;
+  width: 100vw;
+  z-index: 997;
+  background: white;
 }
 .nav-mobile a{
   font-size: 1.7rem;
   display: block;
 }
 .nav-mobile li{
-      line-height: 3;
-    border-bottom: solid 1px black;
+  line-height: 3;
+  border-bottom: solid 1px black;
 }
 .nav-cover{
   display: none;
@@ -418,12 +421,15 @@ nav a:hover{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
   }
   .header-contents{
     height: 7rem;
     display: grid;
     grid-template-rows: 100%;
-    grid-template-columns: 15% 15% 70%;
+    grid-template-columns: 0% 0% 100%;
+    justify-content: center;
   }
   .header-logo{
     height: 40%;
@@ -483,9 +489,9 @@ nav a:hover{
 /* headerここまで */
 
 .kakoi{
-      width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*クッションページ*/
@@ -503,13 +509,22 @@ a.btn--orange:hover {
 }
 
 .cushion-logo{
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .cushion-logo img{
   width: 40%;
+}
+.company-logo{
+  margin: 8rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.company-logo img{
+  width: 20%;
 }
 /*クッションページここまで*/
 
@@ -564,34 +579,34 @@ a.btn--orange:hover {
 
 /*Twitter*/
 .tweets{
-      width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*Twitterここまで*/
 
 /*company*/
 .kaisha {
-width: 100%;
+  width: 100%;
 }
 
 .kaisha th,
 .kaisha td {
-border: 1px solid #ccc;
-padding: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
 }
 
 .kaisha th {
-font-weight: bold;
-background-color: #dedede; 
+  font-weight: bold;
+  background-color: #dedede; 
 }
 
 @media screen and (max-width: 767px) {
-.kaisha,
-.kaisha tr,
-.kaisha td,
-.kaisha th {display:block;}
-.kaisha th {width:auto;}
+  .kaisha,
+  .kaisha tr,
+  .kaisha td,
+  .kaisha th {display:block;}
+  .kaisha th {width:auto;}
 }
 /*companyここまで*/
 
@@ -614,9 +629,9 @@ background-color: #dedede;
 }
 
 .product-time{
-      background: none;
-    color: rgba(35, 24, 21, 1);
-    padding: 0;
+  background: none;
+  color: rgba(35, 24, 21, 1);
+  padding: 0;
 }
 
 .product-title{
@@ -673,7 +688,7 @@ hr{
 
 .news-hover:hover .time-color{
   background: #ff8d00;
-    transition: 0.3s;
+  transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -689,20 +704,20 @@ hr{
     width: 100%;
   }
   #ops{
-  margin-top: -2rem;
-  padding-top: 2rem;
-}
-#other{
-  margin-top: -2rem;
-  padding-top: 2rem;
-}
+    margin-top: -2rem;
+    padding-top: 2rem;
+  }
+  #other{
+    margin-top: -2rem;
+    padding-top: 2rem;
+  }
 
-h1{
-  font-size: 2rem;
-}
-.tosisentaku a{
-  font-size: 1.6rem;
-}
+  h1{
+    font-size: 2rem;
+  }
+  .tosisentaku a{
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 639px){
