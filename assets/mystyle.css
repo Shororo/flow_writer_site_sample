@@ -513,6 +513,8 @@ a.btn--orange:hover {
 .cushion-logo{
   display: flex;
   flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
