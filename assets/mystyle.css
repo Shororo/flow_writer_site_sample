@@ -263,7 +263,6 @@ time{
 /* イメージ要素をウィンドウサイズより大きくしない */
 img {
   object-fit: cover;
-  max-width: 100%;
   height: auto;
   vertical-align: bottom;
 }
