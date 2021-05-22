@@ -263,6 +263,7 @@ time{
 /* イメージ要素をウィンドウサイズより大きくしない */
 img {
   object-fit: cover;
+  max-width: 100%;
   height: auto;
   vertical-align: bottom;
 }
@@ -508,24 +509,15 @@ a.btn--orange:hover {
   color: #fff;
   background: #f56500;
 }
-
 .cushion-logo{
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.cushion-logo img{
   width: 40%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .company-logo{
   margin: 8rem 0rem;
   width: 25%;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 /*.company-logo img{
