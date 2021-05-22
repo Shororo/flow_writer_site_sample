@@ -526,9 +526,9 @@ a.btn--orange:hover {
   justify-content: center;
 }
 .company-logo img{
-  object-fit: cover;
-  width: 20%;
-  height: auto;
+object-fit: contain;
+    width: 20%;
+    height: 10rem;
 }
 /*クッションページここまで*/
 
