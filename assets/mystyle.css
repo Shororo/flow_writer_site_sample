@@ -518,6 +518,9 @@ a.btn--orange:hover {
 .company-logo{
   margin: 8rem 0rem;
   width: 25%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /*.company-logo img{
@@ -695,6 +698,9 @@ hr{
 }
 
 @media (max-width: 767px){
+  .cushion-logo {
+    width: 70%;
+}
   .company-logo{
     width: 15rem;
   }
