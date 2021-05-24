@@ -777,9 +777,9 @@ hr{
     font-size: 1.6rem;
   }
   .mobile-center{
-  position: relative;
-  top: 45%;
-  transform: translateY(-50%); 
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%); 
   }
   .mobile-logo{
     width: 80%;
@@ -795,11 +795,11 @@ hr{
     width: 100%;
   }
   .teaser-link{
-  height: 3rem;
-}
-.teaser-hp-link{
-  height: 1.8rem;
-}
+    height: 3rem;
+  }
+  .teaser-hp-link{
+    height: 1.8rem;
+  }
 }
 
 @media (max-width: 639px){
@@ -946,6 +946,14 @@ hr{
 @media (max-width: 1023px){
   .teaser-hp-link{
     height: 2.5rem;
+  }
+}
+@media (max-height: 700px){
+  .mt-3{
+    margin-top: 0rem !important;
+  }
+  .mtb-7{
+    margin-top: 3rem;
   }
 }
 /*レスポンシブここまで*/
