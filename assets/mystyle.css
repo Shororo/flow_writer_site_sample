@@ -520,16 +520,29 @@ a.btn--orange:hover {
   width: 25%;
   position: relative;
   left: 50%;
+  top: 
   transform: translateX(-50%);
 }
-
-/*.company-logo img{
-object-fit: contain;
-    width: 20%;
-    height: 10rem;
-}*/
-
 /*クッションページここまで*/
+
+
+/*teaserサイトここまで*/
+.teaser-logo{
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+.teaser-koukai{
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+}
+/*teaserサイトここまで*/
+
 
 /*見出しデザイン*/
 .midasi {
