@@ -187,6 +187,13 @@ time{
 .mt-10{
   margin-top: 10rem;
 }
+.mt-15{
+  margin-top: 15rem;
+}
+.mtb-6{
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
 .mtb-7{
   margin-top: 7rem;
   margin-bottom: 7rem;
@@ -558,7 +565,6 @@ a.btn--orange:hover {
   height: 3.3rem;
 }
 .teaser-copy{
-  font-size: 1.6rem;
   position: relative;
   bottom: 3%;
   transform: translateY(-50%);
@@ -747,6 +753,9 @@ hr{
   .midasi{
     margin-top: 7rem;
   }
+  .none-767{
+    display: none;
+  }
 
   .picture-set{
     height: 23rem;
@@ -767,6 +776,30 @@ hr{
   .tosisentaku a{
     font-size: 1.6rem;
   }
+  .mobile-center{
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%); 
+  }
+  .mobile-logo{
+    width: 80%;
+  }
+  .mobile-koukai{
+    width: 50%;
+  }
+  .teaser-copy{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .teaser-link{
+  height: 3rem;
+}
+.teaser-hp-link{
+  height: 1.8rem;
+}
 }
 
 @media (max-width: 639px){
@@ -868,6 +901,9 @@ hr{
   footer img{
     height: 8rem;
   }
+  .none-768{
+    display: none;
+  }
 }
 
 @media (min-width: 900px){
@@ -905,6 +941,11 @@ hr{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+@media (max-width: 1023px){
+  .teaser-hp-link{
+    height: 2.5rem;
   }
 }
 /*レスポンシブここまで*/
