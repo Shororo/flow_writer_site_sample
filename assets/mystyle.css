@@ -203,11 +203,20 @@ time{
   margin-top: 15rem;
   margin-bottom: 15rem;
 }
+.mb-10{
+  margin-bottom: 10rem; 
+}
 .mb-15{
   margin-bottom: 15rem; 
 }
 .mb-20{
   margin-bottom: 20rem; 
+}
+.mb-25{
+  margin-bottom: 25rem; 
+}
+.mb-30{
+  margin-bottom: 30rem; 
 }
 .ml-10{
   margin-left: 10rem;
@@ -537,19 +546,27 @@ a.btn--orange:hover {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 80%;
+  width: 100%;
 }
 .teaser-koukai{
-  width: 40%;
+  width: 60%;
 }
 .teaser-link{
   height: 4.5rem;
 }
-.link-box{
-  text-align: center;
+.teaser-hp-link{
+  height: 2.3rem;
 }
 .teaser-copy{
   font-size: 1.6rem;
+  position: relative;
+  bottom: 3%;
+  transform: translateY(-50%);
+}
+.teaser-shousai{
+  position: relative;
+  top: 44.5%;
+  /*transform: translateY(-50%);*/
 }
 /*teaserサイトここまで*/
 
