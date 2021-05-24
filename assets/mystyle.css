@@ -544,7 +544,7 @@ a.btn--orange:hover {
 .teaser-logo{
   position: relative;
   left: 50%;
-  top: 50%;
+  top: 45%;
   transform: translate(-50%, -50%);
   width: 100%;
 }
@@ -555,7 +555,7 @@ a.btn--orange:hover {
   height: 4.5rem;
 }
 .teaser-hp-link{
-  height: 2.3rem;
+  height: 3.3rem;
 }
 .teaser-copy{
   font-size: 1.6rem;
@@ -565,7 +565,7 @@ a.btn--orange:hover {
 }
 .teaser-shousai{
   position: relative;
-  top: 44.5%;
+  top: 40.5%;
   /*transform: translateY(-50%);*/
 }
 /*teaserサイトここまで*/
