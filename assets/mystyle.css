@@ -203,6 +203,12 @@ time{
   margin-top: 15rem;
   margin-bottom: 15rem;
 }
+.mb-15{
+  margin-bottom: 15rem; 
+}
+.mb-20{
+  margin-bottom: 20rem; 
+}
 .ml-10{
   margin-left: 10rem;
 }
@@ -527,25 +533,20 @@ a.btn--orange:hover {
 
 /*teaserサイトここまで*/
 .teaser-logo{
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 50%;
+  width: 80%;
 }
 .teaser-koukai{
-  position: absolute;
-  left: 50%;
-  top: 85%;
-  transform: translate(-50%, -50%);
-  width: 30%;
+  width: 40%;
 }
 .teaser-link{
   height: 4.5rem;
 }
 .link-box{
   text-align: center;
-  margin-bottom: 7rem;
 }
 .teaser-copy{
   font-size: 1.6rem;
@@ -722,7 +723,7 @@ hr{
 @media (max-width: 767px){
   .cushion-logo {
     width: 70%;
-}
+  }
   .company-logo{
     width: 15rem;
   }
