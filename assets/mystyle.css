@@ -790,7 +790,7 @@ hr{
   .teaser-copy{
     position: absolute;
     left: 50%;
-    bottom: 0;
+    top: 95%;
     transform: translate(-50%, -50%);
     width: 100%;
   }
