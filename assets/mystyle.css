@@ -29,6 +29,15 @@ body {
   font-family: 'Kosugi', sans-serif;
 }
 
+/*100vhが上手く挙動しないのでハックします*/
+/* Safari用のハックは、Chromeに適用されないようにする */
+@supports (-webkit-touch-callout: none) {
+  body {
+    /* Safari用のハック */
+    height: -webkit-fill-available;
+  }
+}
+
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
   display:block;
